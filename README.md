@@ -91,7 +91,6 @@ class EmotionProcessor:
     def recv(self, frame):
         frm = frame.to_ndarray(format="bgr24")
 
-        ##############################
         frm = cv2.flip(frm, 1)
 
         res = holis.process(cv2.cvtColor(frm, cv2.COLOR_BGR2RGB))
