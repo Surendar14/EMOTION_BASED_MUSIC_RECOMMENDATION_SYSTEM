@@ -1,4 +1,4 @@
-# EMOTION_BASED_MUSIC_RECOMMENDATION_SYSTEM(Mini-project)
+# EMOTION_BASED_MUSIC_RECOMMENDATION_SYSTEM </br >(Mini-project)
 
 
 This project is a Streamlit application that recommends songs based on users' captured emotions. It uses computer vision techniques to detect emotions from video frames and provides song recommendations on YouTube or Spotify.
@@ -25,8 +25,8 @@ This project is a Streamlit application that recommends songs based on users' ca
 
 2. Install the required packages:
 
-```pip install -r requirements.txt
-```
+   ```shell
+   pip install -r requirements.txt
 
 3. Download the pre-trained emotion classification model and label mappings.
    (Place the model.h5 file and labels.npy file in the project directory.)
@@ -34,8 +34,10 @@ This project is a Streamlit application that recommends songs based on users' ca
 ## Usage
 
 1. Run the Streamlit application
-```streamlit run app.py
-```
+   ```shell
+   streamlit run app.py
+   ```
+
 2. Access the application in your web browser at http://localhost:8501.
 
 3. Enter the desired language, singer, and music player preferences.
